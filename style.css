@@ -101,3 +101,14 @@ img{
 .checkbox:checked + .fake::before{
     opacity: 1;
 }
+.img-1{
+    position: static;
+}
+.img-2{
+    position: relative;
+    top: 50px; left: 49px;
+}
+.img-3{
+    position: absolute;
+    top: 36px; left: 89px;
+}
