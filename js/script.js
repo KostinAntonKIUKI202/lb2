@@ -1,5 +1,10 @@
 "use strict";
 
-let num = 5.6;
+let incr = 10,
+    decr = 10;
 
-console.log(-4/0);
+incr++;
+decr--;
+
+console.log(incr);
+console.log(decr);
